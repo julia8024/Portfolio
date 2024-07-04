@@ -1,5 +1,9 @@
+import Navigation from "@/components/navigation";
+
 export default function NotFound() {
-    return (
+    return (<>
+        <Navigation />
         <div>Not Found</div>
+        </>
     );
 }
